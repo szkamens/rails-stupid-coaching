@@ -7,7 +7,7 @@ class QuestionsController < ApplicationController
     @question = params[:question]
 
     if @question == 'I am going to work'
-      @answer = 'Great'
+      @answer = 'Great!'
     elsif @question[-1] == '?'
       @answer = 'Silly question, get dressed and go to work!'
     else
